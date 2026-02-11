@@ -5,8 +5,8 @@ import logging
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-STRATZ_API_TOKEN = os.getenv("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWJqZWN0IjoiZDRhNDY1NDAtOWU1OS00ZTYxLWE3ZTktNzRhYzJiOWE2YzIxIiwiU3RlYW1JZCI6IjE0Mzc3MjkzNyIsIkFQSVVzZXIiOiJ0cnVlIiwibmJmIjoxNzcwODAzNDI3LCJleHAiOjE4MDIzMzk0MjcsImlhdCI6MTc3MDgwMzQyNywiaXNzIjoiaHR0cHM6Ly9hcGkuc3RyYXR6LmNvbSJ9.WjKRKSsWmOsAkZnLQx3Kz2Apc_Cq1Xiw5sRuu31UnFo")
-TELEGRAM_BOT_TOKEN = os.getenv("8577747626:AAELNZ_QI7c6Cns8EDSKiFUihAUdO4muwaE")
+STRATZ_API_TOKEN = os.getenv("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWJqZWN0IjoiZDOS00ZTYxLWE3ZTktNzRhYzJiOWE2YzIxIiwiU3RlYW1JZCI6IjE0Mzc3MjkzNyIsIkFQSVVzZXIiOiJ0cnVlIiwibmJmIjoxNzcwODAzNDI3LCJleHAiOjE4MDIzMzk0MjcsImlhdCI6MTc3MDgwMzQyNywiaXNzIjoiaHR0cHM6Ly9hcGkuc3RyYXR6LmNvbSJ9.WjKRKSsWmOsAkZnLQx3Kz2Apc_Cq1Xiw5sRuu31UnFo")
+TELEGRAM_BOT_TOKEN = os.getenv("8577747626:AAELNZ_QI7c6Cns8EDSKiF")
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
