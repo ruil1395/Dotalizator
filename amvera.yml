@@ -1,0 +1,7 @@
+meta:
+  project: dota-match-bot
+  language: python
+  version: 3.11
+
+run:
+  command: python dota_bot.py
